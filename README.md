@@ -85,7 +85,6 @@ requests.get("https://github.com", proxies=proxies)
 | `.` | Any character except newline | a.c → abc, axc |
 | `^abc` | String starts with abc | abc123 |
 | `abc$` | String ends with abc | 123abc |
-| `a|b` | a or b | cat or bat |
 | `ab*` | a followed by 0 or more b | a, ab, abb |
 | `ab+` | a followed by 1 or more b | ab, abb |
 | `ab?` | a followed by 0 or 1 b | a, ab |
